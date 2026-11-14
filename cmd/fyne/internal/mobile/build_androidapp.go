@@ -430,7 +430,7 @@ func convertAPKToAAB(aabPath string) error {
 // A random uninteresting private key.
 // Must be consistent across builds so newer app versions can be installed.
 const debugCert = `
------BEGIN RSA PRIVATE KEY-----
+-----BEGIN DUMMY PRIVATE KEY-----
 MIIEowIBAAKCAQEAy6ItnWZJ8DpX9R5FdWbS9Kr1U8Z7mKgqNByGU7No99JUnmyu
 NQ6Uy6Nj0Gz3o3c0BXESECblOC13WdzjsH1Pi7/L9QV8jXOXX8cvkG5SJAyj6hcO
 LOapjDiN89NXjXtyv206JWYvRtpexyVrmHJgRAw3fiFI+m4g4Qop1CxcIF/EgYh7
